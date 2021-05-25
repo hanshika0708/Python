@@ -1,4 +1,4 @@
-def char_frequency(str1):
+def most_frequency(str1):
     dict = {}
     for n in str1:
         keys = dict.keys()
@@ -8,4 +8,4 @@ def char_frequency(str1):
             dict[n] = 1
     return dict
     s = input("Enter string: ");
-print(char_frequency('s'))
+print(most_frequency('s'))
